@@ -1,0 +1,8 @@
+FREE MUSICA - paquete para convertir a APK
+
+1. Sube TODO el contenido de esta carpeta (index.html, manifest.webmanifest, sw.js y la carpeta icons) a un hosting HTTPS gratuito.
+   Opcion facil: GitHub Pages (crea un repositorio publico, sube los archivos, Settings > Pages > Deploy from branch).
+2. Abre https://www.pwabuilder.com y pega la direccion de tu sitio (por ejemplo https://tuusuario.github.io/free-musica/).
+3. Pulsa Start, luego Package for stores > Android > Generate Package.
+4. Descarga el ZIP. Dentro viene un APK listo para instalar en tu telefono (permite instalar apps desconocidas).
+   Para publicar en Google Play usa el archivo .aab y la clave de firma que incluye el ZIP; guardala.
